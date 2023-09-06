@@ -4,13 +4,13 @@
 //
 //  Created by Ali serkan Boyracı  on 18.07.2022.
 //
+// yatay modu desteklememek icin, ayarlardan sadece portrait secersin.
 
 import UIKit
 
 class ViewController: UIViewController {
-
-    var yenidegisken = 4
     
+    var yenidegisken = 4
     
     override func viewDidLoad() {
         super.viewDidLoad()
