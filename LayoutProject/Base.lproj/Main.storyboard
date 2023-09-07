@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cG8-nF-gAL">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -89,12 +89,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="metallica.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="67g-P1-Srp">
-                                <rect key="frame" x="20" y="142" width="353" height="238"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="238" id="Xcv-qC-E7V"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project Layout" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVM-N4-84S">
                                 <rect key="frame" x="30" y="59" width="333" height="75"/>
                                 <constraints>
@@ -109,12 +103,8 @@
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="N7R-mb-3fy" firstAttribute="trailing" secondItem="qVM-N4-84S" secondAttribute="trailing" constant="30" id="2zJ-mq-92O"/>
-                            <constraint firstItem="67g-P1-Srp" firstAttribute="leading" secondItem="N7R-mb-3fy" secondAttribute="leading" constant="20" id="6OI-nt-Alc"/>
-                            <constraint firstItem="67g-P1-Srp" firstAttribute="top" secondItem="qVM-N4-84S" secondAttribute="bottom" constant="8" id="6jf-8x-Rgk"/>
-                            <constraint firstItem="N7R-mb-3fy" firstAttribute="trailing" secondItem="67g-P1-Srp" secondAttribute="trailing" constant="20" id="Ege-Bk-OCP"/>
                             <constraint firstItem="qVM-N4-84S" firstAttribute="leading" secondItem="N7R-mb-3fy" secondAttribute="leading" constant="30" id="QVu-5g-wMi"/>
                             <constraint firstItem="qVM-N4-84S" firstAttribute="top" secondItem="N7R-mb-3fy" secondAttribute="top" id="e4a-Dh-sIc"/>
-                            <constraint firstItem="67g-P1-Srp" firstAttribute="top" secondItem="qVM-N4-84S" secondAttribute="bottom" constant="8" symbolic="YES" id="n1e-wd-LFl"/>
                         </constraints>
                     </view>
                 </viewController>
