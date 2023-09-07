@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         let height = view.frame.size.height
         
         //label
-        let myLabel = UILabel() //label eklemeye yarar.
+        /*let myLabel = UILabel() //label eklemeye yarar.
         myLabel.text = "BENIM LABEL" //label ismii verir.
         myLabel.textAlignment = .center // put it on the center.
         myLabel.frame = CGRect(x: width * 0.5 - width * 0.8/2, //tam ortayı ayarlamak için görüntü çerçevesinin ortasını yarısı alarak ama aynı zamanda labelin da yarısını çıkararak tam ortaya oturturuz.
@@ -51,7 +51,7 @@ class ViewController: UIViewController {
                            //viewcontroller dışına da objc func yazıp eklenmeli
                            for: UIControl.Event.touchUpInside) //sadece . ya basarak yada
                             //UIControl.Event. yaparak buttonun ne zaman çalıacağını seçebiliriz.
-        
+        */
                            
     
         
