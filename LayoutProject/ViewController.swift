@@ -17,9 +17,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        
         yenidegisken = 3
         print(yenidegisken) //bu 3 ü bastırırken
-        print(self.yenidegisken) // bu 4 ü bastırır.
+        print(self.yenidegisken) // bu 4 ü bastırır. // scope icin onemli
         
         
         let widthFrame = view.frame.size.width //görüntünün çerçevesinin genişliğine eşit bir sabit tanımladık.
